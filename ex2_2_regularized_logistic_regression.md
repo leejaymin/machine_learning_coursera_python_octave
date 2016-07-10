@@ -1,4 +1,4 @@
-# 2. Regularized logistic regression #
+# Programming Exercise 2: Regularized Logistic Regression #
 
 ----------
 
@@ -107,3 +107,16 @@ end
 Train Accuracy: 83.050847
 ```
 
+
+## 2.5 Optional (ungraded) exercises ##
+
+$\lamda$를 조절해 가면서 `overfitting`과 `underfitting`을 적용해 볼 수 있다.
+`e2_reg.m`에서 lamda 값만 변경하면 아래와 같이 수행 할 수 있다. 
+
+lamda= = 0
+Train Accuracy:86.440678
+![](http://i.imgur.com/4S1k024.png)
+
+lamda = 100
+Train Accuracy: 61.016949
+![](http://i.imgur.com/Nk2DDLD.png)
